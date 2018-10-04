@@ -1,1 +1,1 @@
-# embedded-trng
+# TRNG for an Embedded Platform
