@@ -29,14 +29,11 @@
 #include <string.h>
 #include "inc/hw_ints.h"
 #include "inc/hw_memmap.h"
-#include "driverlib/debug.h"
 #include "driverlib/gpio.h"
-#include "driverlib/interrupt.h"
 #include "driverlib/pin_map.h"
 #include "driverlib/rom.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/uart.h"
-#include "utils/ringbuf.h"
 
 #include "common/ring_buffer.h"
 #include "common/conv.h"
@@ -325,7 +322,7 @@ AppMonitorInit(void * pui8buff, uint16_t pu16buffSz)
     //
     // Configure the UART for 115,200, 8-N-1 operation.
     //
-    ROM_UARTConfigSetExpClk(UART0_BASE, ROM_SysCtlClockGet(), 115200,//230400,//115200,
+    ROM_UARTConfigSetExpClk(UART0_BASE, ROM_SysCtlClockGet(), 230400*2,//230400,//115200,
                             (UART_CONFIG_WLEN_8 | UART_CONFIG_STOP_ONE |
                              UART_CONFIG_PAR_NONE));
 
