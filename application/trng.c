@@ -32,7 +32,6 @@
 #include "driverlib/rom.h"
 #include "driverlib/sysctl.h"
 
-#include "driverlib/interrupt.h"
 #include "driverlib/timer.h"
 
 #include "common/entropy_pool.h"
