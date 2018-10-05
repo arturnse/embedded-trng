@@ -8,9 +8,7 @@
 #include "inc/hw_ints.h"
 #include "inc/hw_memmap.h"
 #include "driverlib/rom.h"
-#include "driverlib/interrupt.h"
 #include "driverlib/sysctl.h"
-#include "driverlib/fpu.h"
 
 
 //*****************************************************************************
