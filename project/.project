@@ -24,4 +24,21 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>includes</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/includes</locationURI>
+		</link>
+		<link>
+			<name>includes_tivaware</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/includes_tivaware</locationURI>
+		</link>
+		<link>
+			<name>sources</name>
+			<type>2</type>
+			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/sources</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
