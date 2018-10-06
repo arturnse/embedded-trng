@@ -1,6 +1,5 @@
 
-
-#include "tick.h"
+#include "application/tick.h"
 
 #include "inc/hw_ints.h"
 #include "inc/hw_nvic.h"
