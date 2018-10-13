@@ -1,6 +1,6 @@
 # TRNG for an Embedded Platform
 
-This is an Embedded TRNG for the *Tiva C Series TM4C123G Launchpad* development kit.
+This is an Embedded TRNG for the **Tiva C Series TM4C123G Launchpad** development kit.
 
 It is written for the Stellaris EK-TM4C123GXL ARM Cortex-M4F MCU.
 
@@ -8,7 +8,7 @@ It generates Random data using the crystals available in this platform:
 * The internal crystal oscillator (MOSC), 16Mhz
 * The external crystal oscillator (XTAL), 80Mhz (16Mhz * PLL)
 
-The generator is higly customizable, and got excellent results when exposed to dieharder battery of tests.
+The generator is higly customizable, and got excellent results when exposed to the [Dieharder](http://webhome.phy.duke.edu/~rgb/General/dieharder.php) battery of tests.
 
 ## Dependencies
 
